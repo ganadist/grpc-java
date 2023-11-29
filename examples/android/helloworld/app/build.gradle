@@ -54,6 +54,7 @@ dependencies {
 
     // You need to build grpc-java to obtain these libraries below.
     implementation 'io.grpc:grpc-okhttp:1.59.1' // CURRENT_GRPC_VERSION
+    implementation 'io.grpc:grpc-android:1.59.1' // CURRENT_GRPC_VERSION
     implementation 'io.grpc:grpc-protobuf-lite:1.59.1' // CURRENT_GRPC_VERSION
     implementation 'io.grpc:grpc-stub:1.59.1' // CURRENT_GRPC_VERSION
     implementation 'org.apache.tomcat:annotations-api:6.0.53'
